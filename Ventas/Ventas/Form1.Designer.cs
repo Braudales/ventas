@@ -48,7 +48,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(111, 38);
             this.button2.TabIndex = 1;
-            this.button2.Text = "no procesar";
+            this.button2.Text = "No procesar";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
