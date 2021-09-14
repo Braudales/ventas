@@ -19,13 +19,9 @@ namespace Ventas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola Mundo...");
+            MessageBox.Show("Hare mi propio sistema para mi empresa ");
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("no hago nada.");
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
