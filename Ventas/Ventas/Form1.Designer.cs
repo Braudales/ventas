@@ -33,19 +33,23 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(89, 109);
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(218, 134);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 44);
+            this.button1.Size = new System.Drawing.Size(155, 75);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Procesar.";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "Procesar";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.BackgroundImage = global::Ventas.Properties.Resources.descarga1;
+            this.ClientSize = new System.Drawing.Size(567, 362);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Ventas";
